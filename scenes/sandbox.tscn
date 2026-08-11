@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://8d73rh2ix1bc" path="res://scenes/parallax_2d.gd" id="1_rgld7"]
 [ext_resource type="Texture2D" uid="uid://ceyvh0omyf5sa" path="res://assets/sprites/Misc/background.png" id="2_a8pr3"]
+[ext_resource type="PackedScene" uid="uid://ciej0xyuomchi" path="res://scenes/player/player.tscn" id="3_a8pr3"]
 
 [node name="Sandbox" type="Node2D" unique_id=49395307]
 
@@ -13,3 +14,6 @@ script = ExtResource("1_rgld7")
 position = Vector2(573.5, 324.5)
 scale = Vector2(1.42375, 1.3479167)
 texture = ExtResource("2_a8pr3")
+
+[node name="Player" parent="." unique_id=1818544693 instance=ExtResource("3_a8pr3")]
+position = Vector2(141, 300)
