@@ -1,3 +1,15 @@
 [gd_scene format=3 uid="uid://3xta7ile480s"]
 
+[ext_resource type="Script" uid="uid://8d73rh2ix1bc" path="res://scenes/parallax_2d.gd" id="1_rgld7"]
+[ext_resource type="Texture2D" uid="uid://ceyvh0omyf5sa" path="res://assets/sprites/Misc/background.png" id="2_a8pr3"]
+
 [node name="Sandbox" type="Node2D" unique_id=49395307]
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=219686411]
+repeat_size = Vector2(800, 0)
+script = ExtResource("1_rgld7")
+
+[node name="Background" type="Sprite2D" parent="Parallax2D" unique_id=1769302203]
+position = Vector2(573.5, 324.5)
+scale = Vector2(1.42375, 1.3479167)
+texture = ExtResource("2_a8pr3")
