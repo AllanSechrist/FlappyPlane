@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://ciej0xyuomchi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x7p2l"]
+
+[node name="Player" type="CharacterBody2D" unique_id=1818544693]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1230257114]
+shape = SubResource("RectangleShape2D_x7p2l")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2128901398]
