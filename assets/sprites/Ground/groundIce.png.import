@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgj28dj6i87an"
-path="res://.godot/imported/groundDirt.png-3f145ca30e12d35a288493c482b3989b.ctex"
+uid="uid://bibq4kq62kw8h"
+path="res://.godot/imported/groundIce.png-814e9930e5ba17472107cd67df662c3c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Misc/groundDirt.png"
-dest_files=["res://.godot/imported/groundDirt.png-3f145ca30e12d35a288493c482b3989b.ctex"]
+source_file="res://assets/sprites/Ground/groundIce.png"
+dest_files=["res://.godot/imported/groundIce.png-814e9930e5ba17472107cd67df662c3c.ctex"]
 
 [params]
 

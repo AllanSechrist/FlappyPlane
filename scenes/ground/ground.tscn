@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://7dkjqq1ir2ir"]
+
+[ext_resource type="Texture2D" uid="uid://cgj28dj6i87an" path="res://assets/sprites/Ground/groundDirt.png" id="1_au3k8"]
+[ext_resource type="Script" uid="uid://wcqs6acf2hc3" path="res://scenes/ground/ground.gd" id="1_rrkwn"]
+
+[node name="Ground" type="AnimatableBody2D" unique_id=614792343]
+script = ExtResource("1_rrkwn")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=746614462]
+texture = ExtResource("1_au3k8")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=1948639659]
+polygon = PackedVector2Array(-405, 2, -404, 36, 404, 35, 404, 2, 358, -8, 341, -34, 255, -33, 234, -11, 195, -7, 168, 21, 131, 22, 108, 12, 70, 10, 34, -22, -32, -22, -53, -7, -94, -5, -154, -28, -247, -25, -271, 2, -309, 11, -362, 8, -370, -1)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctc0ndl8c0qdj"
-path="res://.godot/imported/rockIce.png-47cf675d8a47105ee9a349654df28d70.ctex"
+uid="uid://d2y7ah5plv8ua"
+path="res://.godot/imported/starSilver.png-bf3f7cef7af9b66971d7dd222579eead.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Misc/rockIce.png"
-dest_files=["res://.godot/imported/rockIce.png-47cf675d8a47105ee9a349654df28d70.ctex"]
+source_file="res://assets/sprites/Collectables/starSilver.png"
+dest_files=["res://.godot/imported/starSilver.png-bf3f7cef7af9b66971d7dd222579eead.ctex"]
 
 [params]
 

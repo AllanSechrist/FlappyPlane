@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://byju8s82d1i17"
-path="res://.godot/imported/rockDown.png-3ccf7b0133f83743398b22eef66d6ba0.ctex"
+uid="uid://lcer0vspyofa"
+path="res://.godot/imported/starGold.png-b5e54b47c7b9bd9f02419a343c096966.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Misc/rockDown.png"
-dest_files=["res://.godot/imported/rockDown.png-3ccf7b0133f83743398b22eef66d6ba0.ctex"]
+source_file="res://assets/sprites/Collectables/starGold.png"
+dest_files=["res://.godot/imported/starGold.png-b5e54b47c7b9bd9f02419a343c096966.ctex"]
 
 [params]
 

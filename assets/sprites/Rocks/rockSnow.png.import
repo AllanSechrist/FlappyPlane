@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dxmtmy5em24g0"
-path="res://.godot/imported/rockGrassDown.png-de0b88342a78f9b408ec5b74b41c1846.ctex"
+uid="uid://4thy3ppfla2i"
+path="res://.godot/imported/rockSnow.png-51bdda08a37a348c69c557bdb6b7e006.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Misc/rockGrassDown.png"
-dest_files=["res://.godot/imported/rockGrassDown.png-de0b88342a78f9b408ec5b74b41c1846.ctex"]
+source_file="res://assets/sprites/Rocks/rockSnow.png"
+dest_files=["res://.godot/imported/rockSnow.png-51bdda08a37a348c69c557bdb6b7e006.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d2y7ah5plv8ua"
-path="res://.godot/imported/starSilver.png-79ac6587e404ccc7d4f1f78d241ba782.ctex"
+uid="uid://dd5q3no6jgtey"
+path="res://.godot/imported/starBronze.png-73a8a541ddefaec43ec1a99445a73597.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Misc/starSilver.png"
-dest_files=["res://.godot/imported/starSilver.png-79ac6587e404ccc7d4f1f78d241ba782.ctex"]
+source_file="res://assets/sprites/Collectables/starBronze.png"
+dest_files=["res://.godot/imported/starBronze.png-73a8a541ddefaec43ec1a99445a73597.ctex"]
 
 [params]
 

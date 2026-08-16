@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhjpib224mfpx"
-path="res://.godot/imported/groundRock.png-51708bb097250979e96dc1ed97b18a67.ctex"
+uid="uid://byju8s82d1i17"
+path="res://.godot/imported/rockDown.png-1830e50491de176052b4422d64eb4cac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Misc/groundRock.png"
-dest_files=["res://.godot/imported/groundRock.png-51708bb097250979e96dc1ed97b18a67.ctex"]
+source_file="res://assets/sprites/Rocks/rockDown.png"
+dest_files=["res://.godot/imported/rockDown.png-1830e50491de176052b4422d64eb4cac.ctex"]
 
 [params]
 
