@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://ceyvh0omyf5sa" path="res://assets/sprites/Misc/background.png" id="2_a8pr3"]
 [ext_resource type="PackedScene" uid="uid://ciej0xyuomchi" path="res://scenes/player/player.tscn" id="3_a8pr3"]
 [ext_resource type="PackedScene" uid="uid://7dkjqq1ir2ir" path="res://scenes/ground/ground.tscn" id="4_j6lu3"]
+[ext_resource type="PackedScene" uid="uid://6g3jpqqfqsqk" path="res://scenes/rock/rock.tscn" id="5_tpt06"]
 
 [node name="Sandbox" type="Node2D" unique_id=49395307]
 
@@ -12,15 +13,21 @@ repeat_size = Vector2(800, 0)
 script = ExtResource("1_rgld7")
 
 [node name="Background" type="Sprite2D" parent="Parallax2D" unique_id=1769302203]
-position = Vector2(573.5, 324.5)
-scale = Vector2(1.42375, 1.3479167)
+position = Vector2(576, 324.5)
+scale = Vector2(1.4399999, 1.3479167)
 texture = ExtResource("2_a8pr3")
 
 [node name="Player" parent="." unique_id=1818544693 instance=ExtResource("3_a8pr3")]
 position = Vector2(141, 300)
 
+[node name="Rock" parent="." unique_id=1242596337 instance=ExtResource("5_tpt06")]
+position = Vector2(998, 607)
+
 [node name="Ground" parent="." unique_id=1344012748 instance=ExtResource("4_j6lu3")]
-position = Vector2(404, 615)
+position = Vector2(1512, 615)
 
 [node name="Ground2" parent="." unique_id=11573200 instance=ExtResource("4_j6lu3")]
-position = Vector2(1212, 615)
+position = Vector2(-104, 615)
+
+[node name="Ground3" parent="." unique_id=614792343 instance=ExtResource("4_j6lu3")]
+position = Vector2(704, 615)
