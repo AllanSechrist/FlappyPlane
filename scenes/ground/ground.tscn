@@ -15,13 +15,7 @@ polygon = PackedVector2Array(-405, 2, -404, 36, 404, 35, 404, 2, 358, -8, 341, -
 [node name="SpawnPoints" type="Node2D" parent="." unique_id=534728950]
 
 [node name="RockSpawnPoint" type="Marker2D" parent="SpawnPoints" unique_id=1969494535]
-position = Vector2(-198, -21)
-
-[node name="RockSpawnPoint2" type="Marker2D" parent="SpawnPoints" unique_id=1201252675]
-position = Vector2(0, -15)
+position = Vector2(-198, -16)
 
 [node name="RockSpawnPoint3" type="Marker2D" parent="SpawnPoints" unique_id=1898322258]
-position = Vector2(146, 25)
-
-[node name="RockSpawnPoint4" type="Marker2D" parent="SpawnPoints" unique_id=370263853]
-position = Vector2(299, -25)
+position = Vector2(147, 29)

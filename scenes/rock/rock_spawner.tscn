@@ -2,5 +2,5 @@
 
 [ext_resource type="Script" uid="uid://dqikqc85kjyc7" path="res://scenes/rock/rock_spawner.gd" id="1_6md55"]
 
-[node name="RockSpawner" type="Node" unique_id=205191740]
+[node name="RockSpawner" type="Node2D" unique_id=2140543481]
 script = ExtResource("1_6md55")
