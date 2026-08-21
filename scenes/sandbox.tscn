@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dxx2yyrsj5vyk" path="res://scenes/rock/rock_spawner.tscn" id="4_tpt06"]
 [ext_resource type="PackedScene" uid="uid://6g3jpqqfqsqk" path="res://scenes/rock/rock.tscn" id="5_16ffl"]
 [ext_resource type="PackedScene" uid="uid://tupblci8ekth" path="res://scenes/ground/ground_spawner.tscn" id="7_rvfw7"]
+[ext_resource type="PackedScene" uid="uid://nejbrbm4g28s" path="res://scenes/collectables/collectable_spawner.tscn" id="9_rvfw7"]
 
 [node name="Sandbox" type="Node2D" unique_id=49395307]
 script = ExtResource("1_4b02c")
@@ -38,3 +39,5 @@ position = Vector2(-104, 615)
 
 [node name="Ground3" parent="GroundSpawner" unique_id=614792343 instance=ExtResource("4_j6lu3")]
 position = Vector2(704, 615)
+
+[node name="CollectableSpawner" parent="." unique_id=924763142 instance=ExtResource("9_rvfw7")]

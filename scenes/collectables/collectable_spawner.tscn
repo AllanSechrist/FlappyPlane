@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://nejbrbm4g28s"]
+
+[ext_resource type="Script" uid="uid://c8rfkvipwc0hp" path="res://scenes/collectables/collectable_spawner.gd" id="1_g58ja"]
+[ext_resource type="PackedScene" uid="uid://jm72d2kikqsv" path="res://scenes/collectables/collectable.tscn" id="2_g7oqk"]
+
+[node name="CollectableSpawner" type="Node2D" unique_id=924763142]
+script = ExtResource("1_g58ja")
+colletable_scene = ExtResource("2_g7oqk")
+
+[node name="SpawnTimer" type="Timer" parent="." unique_id=1152231372]
+
+[node name="SpawnPoint" type="Marker2D" parent="." unique_id=1571637532]
+position = Vector2(1152, 337)
