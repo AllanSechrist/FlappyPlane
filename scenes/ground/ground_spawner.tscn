@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://tupblci8ekth"]
+
+[ext_resource type="Script" uid="uid://bkkw23ccrukh6" path="res://scenes/ground/ground_spawner.gd" id="1_i4win"]
+[ext_resource type="PackedScene" uid="uid://7dkjqq1ir2ir" path="res://scenes/ground/ground.tscn" id="2_dutri"]
+
+[node name="GroundSpawner" type="Node" unique_id=1915303487]
+script = ExtResource("1_i4win")
+ground_scene = ExtResource("2_dutri")
