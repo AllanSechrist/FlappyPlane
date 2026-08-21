@@ -3,8 +3,6 @@ class_name Ground
 
 @onready var spawn_points: Node2D = $SpawnPoints
 
-
-@export var speed := 150.0
 @export var ground_width := 808.0
 @export var piece_count := 3
 
@@ -20,7 +18,7 @@ func _ready() -> void:
 	request_rock.emit(self)
 
 func _physics_process(delta: float) -> void:
-	position.x -= speed * delta
+	position.x -= GameSettings.game_speed * delta
 	
 	if position.x <= -ground_width:
 		despawn.emit(self)

@@ -14,6 +14,10 @@ config/name="Flappy Plane"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
+[autoload]
+
+GameSettings="*uid://c5kwq0yr0sr8q"
+
 [input]
 
 click={

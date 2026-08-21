@@ -26,4 +26,3 @@ func _on_despawn(ground: Ground) -> void:
 	ground_segments.erase(ground)
 	ground.queue_free()
 	spawn_ground()
-	print("Free!")
