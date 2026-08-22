@@ -7,6 +7,8 @@
 radius = 23.086792
 
 [node name="Collectable" type="Area2D" unique_id=645833024]
+collision_layer = 8
+collision_mask = 4
 script = ExtResource("1_6cysq")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=2112643372]
@@ -15,4 +17,4 @@ texture = ExtResource("2_vtu06")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1205721107]
 shape = SubResource("CircleShape2D_34ewq")
 
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]

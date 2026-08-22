@@ -4,6 +4,8 @@
 [ext_resource type="Script" uid="uid://wcqs6acf2hc3" path="res://scenes/ground/ground.gd" id="1_rrkwn"]
 
 [node name="Ground" type="AnimatableBody2D" unique_id=614792343]
+collision_layer = 2
+collision_mask = 0
 script = ExtResource("1_rrkwn")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=746614462]

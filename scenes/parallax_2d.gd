@@ -17,3 +17,6 @@ func _ready() -> void:
 	repeat_times = int(ceil(viewport_size.x / scaled_width)) + 2
 	
 	autoscroll = Vector2(-60, 0)
+	
+func adjust_autoscroll(new_speed: Vector2) -> void:
+	autoscroll = new_speed

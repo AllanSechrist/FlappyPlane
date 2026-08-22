@@ -26,6 +26,13 @@ click={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Player"
+2d_physics/layer_2="Rock"
+2d_physics/layer_3="CollectionArea"
+2d_physics/layer_4="Collectable"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"

@@ -17,4 +17,5 @@ func _physics_process(delta: float) -> void:
 		
 func game_over() -> void:
 	print("Game Over!")
+	GameSettings.game_speed = 0
 	queue_free()
