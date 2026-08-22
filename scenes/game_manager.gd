@@ -5,13 +5,9 @@ class_name GameManager
 @onready var rock_spawner: RockSpawner = $RockSpawner
 @onready var ground_spawner: GroundSpawner = $GroundSpawner
 @onready var collectable_spawner: CollectableSpawner = $CollectableSpawner
-
-
+@onready var hud: HUD = $HUD
 
 var score := 0
-
-#UI
-signal score_changed(new_score: int)
 
 func _ready() -> void:
 	ground_spawner.request_connection.connect(rock_spawner._on_connection_requested)
@@ -19,9 +15,8 @@ func _ready() -> void:
 
 func _on_score_change(points: int) -> void:
 	score += points
-	score_changed.emit(score)
 	increase_game_speed()
-	print(score)
+	hud.update_score(score)
 	
 func increase_game_speed() -> void:
 	GameSettings.game_speed *= 1.0025

@@ -9,6 +9,7 @@
 [ext_resource type="PackedScene" uid="uid://6g3jpqqfqsqk" path="res://scenes/rock/rock.tscn" id="5_16ffl"]
 [ext_resource type="PackedScene" uid="uid://tupblci8ekth" path="res://scenes/ground/ground_spawner.tscn" id="7_rvfw7"]
 [ext_resource type="PackedScene" uid="uid://nejbrbm4g28s" path="res://scenes/collectables/collectable_spawner.tscn" id="9_rvfw7"]
+[ext_resource type="PackedScene" uid="uid://cis31lx76m4yi" path="res://scenes/HUD/hud.tscn" id="10_m5lhb"]
 
 [node name="Sandbox" type="Node2D" unique_id=49395307]
 script = ExtResource("1_4b02c")
@@ -23,7 +24,7 @@ scale = Vector2(1.4399999, 1.3479167)
 texture = ExtResource("2_a8pr3")
 
 [node name="Player" parent="." unique_id=1818544693 instance=ExtResource("3_a8pr3")]
-position = Vector2(141, 300)
+position = Vector2(200, 300)
 
 [node name="RockSpawner" parent="." unique_id=205191740 instance=ExtResource("4_tpt06")]
 rock_scene = ExtResource("5_16ffl")
@@ -41,3 +42,5 @@ position = Vector2(-104, 615)
 position = Vector2(704, 615)
 
 [node name="CollectableSpawner" parent="." unique_id=924763142 instance=ExtResource("9_rvfw7")]
+
+[node name="HUD" parent="." unique_id=614651800 instance=ExtResource("10_m5lhb")]

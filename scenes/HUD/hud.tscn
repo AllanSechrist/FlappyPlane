@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://cis31lx76m4yi"]
+
+[ext_resource type="Script" uid="uid://c73rtickjmqli" path="res://scenes/HUD/hud.gd" id="1_5m2cf"]
+[ext_resource type="Script" uid="uid://qwqy2ddi711q" path="res://scenes/HUD/number_container.gd" id="1_c0cnr"]
+[ext_resource type="Texture2D" uid="uid://c2k083mybxkic" path="res://assets/sprites/Numbers/number0.png" id="2_pdy2d"]
+[ext_resource type="Texture2D" uid="uid://duf03y2udlcwb" path="res://assets/sprites/Numbers/number1.png" id="3_5m2cf"]
+[ext_resource type="Texture2D" uid="uid://rv3imbg4h8tr" path="res://assets/sprites/Numbers/number2.png" id="4_yt4xk"]
+[ext_resource type="Texture2D" uid="uid://b4ajly83cuv0n" path="res://assets/sprites/Numbers/number3.png" id="5_4l2l0"]
+[ext_resource type="Texture2D" uid="uid://q77i04u2kv06" path="res://assets/sprites/Numbers/number4.png" id="6_6e3el"]
+[ext_resource type="Texture2D" uid="uid://djndfoi2x2ntg" path="res://assets/sprites/Numbers/number5.png" id="7_4dkic"]
+[ext_resource type="Texture2D" uid="uid://3ke8ryvklw4x" path="res://assets/sprites/Numbers/number6.png" id="8_dwvdh"]
+[ext_resource type="Texture2D" uid="uid://bcgtmkewuo0hj" path="res://assets/sprites/Numbers/number7.png" id="9_1pakv"]
+[ext_resource type="Texture2D" uid="uid://dwvggn4k6f7h8" path="res://assets/sprites/Numbers/number8.png" id="10_muaf5"]
+[ext_resource type="Texture2D" uid="uid://rxcfqfj4h1uf" path="res://assets/sprites/Numbers/number9.png" id="11_mfsd8"]
+
+[node name="HUD" type="CanvasLayer" unique_id=614651800]
+script = ExtResource("1_5m2cf")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=1314672385]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_top = 16
+
+[node name="NumberContainer" type="HBoxContainer" parent="MarginContainer" unique_id=7696659]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+script = ExtResource("1_c0cnr")
+digit_textures = Array[Texture2D]([ExtResource("2_pdy2d"), ExtResource("3_5m2cf"), ExtResource("4_yt4xk"), ExtResource("5_4l2l0"), ExtResource("6_6e3el"), ExtResource("7_4dkic"), ExtResource("8_dwvdh"), ExtResource("9_1pakv"), ExtResource("10_muaf5"), ExtResource("11_mfsd8")])
